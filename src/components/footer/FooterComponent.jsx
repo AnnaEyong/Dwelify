@@ -12,7 +12,7 @@ export default function CardComponent({property}) {
     <div className='hidden md:flex gap-15 w-full px-[5%] py-[5%] text-[.85rem] border-t-1 border-[#262626] mt-[3rem] relative z-2'>
         <div  className='lg:flex flex-col hidden'>
             <div className='flex gap-0.5'>
-                <img src='/D.png' alt='logo' className='w-10'/><span className='text-xl font-semibold flex  items-end'>WELIFY</span>
+                <img src='/Dwelify.png' alt='logo' className='w-30'/>
             </div>
             <div className='border-1 border-[#262626] flex items-center gap-3 rounded-lg py-2 px-3 mt-[8%]'>
                <MailPlus className='text-[#999999]'/>
@@ -75,10 +75,10 @@ export default function CardComponent({property}) {
     </div>
     </div>
 
-    <article className='relative z-2hidden md:flex flex-col items-center justify-center w-full px-[5%] text-[.85rem]'>
+    <article className='relative z-2 hidden md:flex flex-col items-center justify-center w-full px-[5%] text-[.85rem]'>
         <div className='flex flex-col justify-center items-center lg:hidden w-full'>
             <div className='flex gap-0.5'>
-                <img src='/D.png' alt='logo' className='w-10'/><span className='text-xl font-semibold flex  items-end'>WELIFY</span>
+                <img src='/Dwelify.png' alt='logo' className='w-30'/>
             </div>
             <div className='border-1 border-[#262626] bg-[#1a1a1a] flex items-center gap-3 rounded-lg py-2 px-3 w-[80%] my-[4%]'>
                <MailPlus className='text-[#999999]'/>
@@ -115,7 +115,7 @@ export default function CardComponent({property}) {
         <hr className='border-t-1 border-[#262626]' />
         <div className='flex flex-col justify-center items-center pt-[2rem]'>
             <div className='flex gap-0.5'>
-                <img src='/D.png' alt='logo' className='w-10'/><span className='text-xl font-semibold flex  items-end'>WELIFY</span>
+                <img src='/Dwelify.png' alt='logo' className='w-30'/>
             </div>
             <div className='border-1 border-[#262626] flex items-center gap-3 rounded-lg py-2.5 px-3 mt-[3%] w-full'>
                <MailPlus className='text-[#999999]'/>

@@ -57,11 +57,6 @@ export default function page() {
             </p>
       </section>
     {/* HERO END */}
-    
-          <div className='flex gap-6 justify-center items-center py-[10%] mt-[-4%] md:mt-0 md:pt-[2%] md:pb-[4%]'>
-              <button className='text-[1.2rem] border-b-1 pb-1 px-3 text-[#999999]'>Buy</button>
-              <button className='text-[1.2rem] border-b-1 border-transparent pb-1 px-3'>Rent</button>
-          </div>
 
     {/* SEARCH AND PROPERTIES DISPLAY */}
         <section className='px-[5%] border-t-1 border-[#262626]'>
