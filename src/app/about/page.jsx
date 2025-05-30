@@ -367,7 +367,7 @@ export default function page() {
 {/* ESTATEIN TEAM END */}
 
 {/* RESPONSIVE TEAM*/}
-<section className='grid md:hidden grid-cols-1 gap-5 px-[12%]'>
+<section className='grid md:hidden grid-cols-1 gap-5 px-[12%] mb-[5%]'>
         <div className='h-[410px] border-1 border-[#262626] rounded-lg p-4'>
             <div className='h-[60%] w-full rounded-lg relative'>
                 <img src="https://img.freepik.com/premium-photo/handsome-black-successful-clever-american-student-with-glasses-university-dark-suit-studio-fashion-shot-isolated-black-background_175356-1999.jpg" alt='photo' className='w-full h-full object-cover object-top rounded-lg' />
@@ -415,7 +415,7 @@ export default function page() {
 
          <div className='h-[410px] border-1 border-[#262626] rounded-lg p-4'>
             <div className='h-[60%] w-full rounded-lg relative'>
-                <img src="https://i.pinimg.com/736x/44/b0/e6/44b0e6c60ea3f4055d03707df1ad39f5.jpg" alt='photo' className='w-full h-full object-cover object-top rounded-lg' />
+                <img src="https://i.pinimg.com/736x/44/b0/e6/44b0e6c60ea3f4055d03707df1ad39f5.jpg" alt='photo' className='w-full h-full object-cover rounded-lg' />
                <button className='w-15 h-8 rounded-full bg-[#703BF7] absolute top-[92.5%] left-[37%] flex justify-center items-center'><FaTwitter size={20}/></button>
                 <div className='flex flex-col items-center w-full pt-[12%]'>
                     <h3 className='text-lg font-semibold'>Michelle Turner</h3>
