@@ -89,8 +89,20 @@ export default function NavbarComponent() {
               <UserButton />
             </SignedIn>
         </div>
-      
+
+    <div className='md:hidden sm:flex cursor-pointer'>
+      <div className='flex gap-2'>
+      <SignedOut>
+              <SignInButton />
+              <SignUpButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+        </div>
       <img src='/Icon.png' alt='icon' className='md:hidden sm:flex cursor-pointer' onClick={toggleMenu} id='open'/>
+    </div>
+    
     </div>
 
     {/* SLIDEBAR */}
@@ -117,6 +129,7 @@ export default function NavbarComponent() {
               Favorites
         </button>
         <button className='button pl-8 bg-[#1a1a1a] focus:bg-white/10 text-left cursor-pointer flex items-center gap-4'><Settings size={21}/> Settings</button>
+        
     </div>
 </div>
     </div>
