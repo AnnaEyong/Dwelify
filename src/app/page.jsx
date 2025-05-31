@@ -92,8 +92,8 @@ export default function page() {
         </div>
 
         <div className='text-[15px] text-white flex flex-col gap-3'>
-            <button className='bg-[#141414] py-2 px-3 border-1 border-[#262626] rounded-lg cursor-pointer'>Learn More</button>
-            <button className='bg-[#703BF7] py-2 px-3 border-1 border-[#703BF7] rounded-lg cursor-pointer'>Browse Properties</button>
+            <Link href='/about' className='bg-[#141414] py-2 px-3 border-1 border-[#262626] rounded-lg cursor-pointer'>Learn More</Link>
+            <Link href='/properties' className='bg-[#703BF7] py-2 px-3 border-1 border-[#703BF7] rounded-lg cursor-pointer'>Browse Properties</Link>
         </div>
 
     <div className='flex flex-col gap-3'>
@@ -233,7 +233,7 @@ export default function page() {
 
         {/* RESPONSIVE NAVIGATION */}
     <div className='flex md:hidden justify-between items-center mt-[3%] py-3 border-t-1 border-[#262626]'>
-        <button className='flex justify-center bg-[#141414] text-[14px] py-3 px-3 w-fit h-fit border-1 border-[#262626] rounded-lg cursor-pointer'>View All Properties</button>
+        <Link href='/properties' className='flex justify-center bg-[#141414] text-[14px] py-3 px-3 w-fit h-fit border-1 border-[#262626] rounded-lg cursor-pointer'>View All Properties</Link>
         <div className='flex gap-4 items-center'>
             <button  onClick={decrement} className='swiper-button-prev cursor-pointer  border-1 border-[#262626] text-[#999999] h-8 w-8 rounded-full flex items-center justify-center'><ArrowLeft size={18} /></button>
             <button  onClick={increment} className='swiper-button-next  cursor-pointer bg-[#1a1a1a] border-1 border-[#262626] text-white h-8 w-8 rounded-full flex items-center justify-center'><ArrowRight size={18} /></button>
