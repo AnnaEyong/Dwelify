@@ -79,7 +79,7 @@ export default function page() {
     <main className='md:hidden sm:grid grid-cols-1 pt-[2.5rem]'> 
 
         {/* RESPONSIVE HERO IMAGE    */}
-        <section className='px-[2%] pt-[5%] bg-[#141414]'>
+        <section className='px-[2%] pt-[7%] bg-[#141414]'>
             <img src='/Container.png' alt='hero image' className='w-full h-full object-fit-cover rounded-lg' />
         </section>
 
@@ -92,8 +92,8 @@ export default function page() {
         </div>
 
         <div className='text-[15px] text-white flex flex-col gap-3'>
-            <Link href='/about' className='bg-[#141414] py-2 px-3 border-1 border-[#262626] rounded-lg cursor-pointer'>Learn More</Link>
-            <Link href='/properties' className='bg-[#703BF7] py-2 px-3 border-1 border-[#703BF7] rounded-lg cursor-pointer'>Browse Properties</Link>
+            <Link href='/about' className='bg-[#141414] py-2 px-3 border-1 text-center border-[#262626] rounded-lg cursor-pointer'>Learn More</Link>
+            <Link href='/properties' className='bg-[#703BF7] py-2 px-3 border-1 text-center border-[#703BF7] rounded-lg cursor-pointer'>Browse Properties</Link>
         </div>
 
     <div className='flex flex-col gap-3'>

@@ -48,7 +48,7 @@ export default function page() {
     </main>
     
         {/* HERO RESPONSIVENESS */}
-    <main className='md:hidden sm:grid grid-cols-1 pt-[4rem] px-[5%]'> 
+    <main className='md:hidden sm:grid grid-cols-1 pt-[6rem] px-[5%]'> 
 
         {/* RESPONSIVE HERO IMAGE    */}
         <section className='bg-[#141414]'>
